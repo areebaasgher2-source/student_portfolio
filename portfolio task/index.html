@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="hero" class="hero-section">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+        <h1>Hello, I'm [Your Name]</h1>
+        <p>A passionate student & aspiring web developer.</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+<main class="container">
+<section id="about" class="card">
+            <h2>About Me</h2>
+            <p>Main ek student hoon aur mujhe nayi technologies seekhne ka bohot shauq hai. Filhal main HTML aur CSS seekh kar web development ki duniya mein qadam rakh raha hoon.</p>
+        </section>
+        <section id="education" class="card">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>University Name | 2024 - Present</p>
+            </div>
+            <div class="edu-item">
+                <h3>Intermediate / High School</h3>
+                <p>ollege Name | 2022 - 2024C</p>
+            </div>
+        </section>
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">Responsive Design</span>
+                <span class="skill-badge">Git & GitHub</span>
+            </div>
+        </section>
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Project 1: Personal Portfolio</h3>
+                    <p>A clean and responsive student portfolio built using pure HTML and CSS.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2: Tribute Page</h3>
+                    <p>A simple HTML/CSS page dedicated to a famous personality.</p>
+                </div>
+            </div>
+        </section>
+       <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Form submitted! (Practice Only)');">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+<footer>
+        <p>&copy; 2026 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
